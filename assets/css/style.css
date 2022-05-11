@@ -10,37 +10,38 @@ body {
   font-family: Helvetica, Arial, sans-serif;
 }
 /* apply styles to <header> */
- header {
-    padding: 20px 35px;
-    background-color: #39a6b2;
+header {
+  padding: 20px 35px;
+  background-color: #39a6b2;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 header h1 {
-    font-weight: bold;
-    font-size: 36px;
-    color: #fce138;
-    margin: 0;
-    display: inline;
+  font-weight: bold;
+  font-size: 36px;
+  color: #fce138;
+  margin: 0;
 }
 
 header a {
-    text-decoration: none;
-    color: #fce138;
+  text-decoration: none;
+  color: #fce138;
 }
 
 header nav {
-    float: right;
-    margin: 7px 0;
+  margin: 7px 0;
 }
 
 header nav ul li {
-    display: inline;
+  display: inline;
 }
 
 header nav ul li a {
-    margin: 0 30px;
-    font-weight: lighter;
-    font-size: 22px;
+  margin: 0 30px;
+  font-weight: lighter;
+  font-size: 22px;
 }
 /* Footer Styles Start */
 footer {
